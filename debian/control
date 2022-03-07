@@ -1,0 +1,12 @@
+Source: ros-foxy-leo-teleop
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: http://wiki.ros.org/leo_teleop
+Standards-Version: 3.9.2
+
+Package: ros-foxy-leo-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-joy, ros-foxy-teleop-twist-joy, ros-foxy-teleop-twist-keyboard, ros-foxy-ros-workspace
+Description: Scripts and launch files for Leo Rover teleoperation
