@@ -1,0 +1,12 @@
+Source: ros-foxy-leo
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: http://wiki.ros.org/leo
+Standards-Version: 3.9.2
+
+Package: ros-foxy-leo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-leo-description, ros-foxy-leo-msgs, ros-foxy-leo-teleop, ros-foxy-ros-workspace
+Description: Metapackage of software for Leo Rover common to the robot and ROS desktop
