@@ -14,17 +14,16 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: ros2
-    last_release: ros2-1.0.2
+    devel_branch: foxy
     last_version: 1.0.2
     name: upstream
     patches: null
     release_inc: '1'
     release_repo_url: null
-    release_tag: ros2-:{version}
+    release_tag: :{version}
     ros_distro: foxy
     vcs_type: git
-    vcs_uri: https://github.com/LeoRover/leo_common.git
+    vcs_uri: https://github.com/LeoRover/leo_common-ros2.git
     version: :{auto}
   humble:
     actions:
