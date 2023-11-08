@@ -2,6 +2,9 @@
 Changelog for package leo_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2023-11-08)
+------------------
+
 1.2.0 (2023-11-02)
 ------------------
 * Update author and copyright info
