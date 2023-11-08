@@ -1,3 +1,30 @@
+## leo_common (iron) - 2.0.0-1
+
+The packages in the `leo_common` repository were released into the `iron` distro by running `/usr/bin/bloom-release --rosdistro iron leo_common` on `Wed, 08 Nov 2023 12:35:19 -0000`
+
+These packages were released:
+- `leo`
+- `leo_description`
+- `leo_msgs`
+- `leo_teleop`
+
+Version of package(s) in repository `leo_common`:
+
+- upstream repository: https://github.com/LeoRover/leo_common-ros2.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## leo_common (humble) - 1.2.0-1
 
 The packages in the `leo_common` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble leo_common` on `Thu, 02 Nov 2023 16:53:33 -0000`
