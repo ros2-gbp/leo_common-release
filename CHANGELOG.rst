@@ -2,6 +2,12 @@
 Changelog for package leo_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.1 (2024-02-13)
+------------------
+* Change wheel ode friction params (`#8 <https://github.com/LeoRover/leo_common-ros2/issues/8>`_)
+* Remove redundant ros2_control controller configuration
+* Contributors: Błażej Sowa, Jan Hernas
+
 1.2.0 (2023-11-02)
 ------------------
 * Update author and copyright info
