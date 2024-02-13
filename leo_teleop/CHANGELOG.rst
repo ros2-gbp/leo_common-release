@@ -2,6 +2,9 @@
 Changelog for package leo_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.1 (2024-02-13)
+------------------
+
 1.2.0 (2023-11-02)
 ------------------
 * Increase joystick deadzone
