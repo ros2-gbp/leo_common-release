@@ -2,12 +2,17 @@
 Changelog for package leo_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.0.1 (2024-02-13)
+2.0.2 (2024-04-27)
 ------------------
-* Change wheel ode friction params (`#8 <https://github.com/LeoRover/leo_common-ros2/issues/8>`_) (`#9 <https://github.com/LeoRover/leo_common-ros2/issues/9>`_)
+* Set GZ_SIM_RESOURCE_PATH for Gazebo Harmonic
+* Contributors: Błażej Sowa
+
+2.0.1 (2024-02-13)
+------------------
+* Change wheel ode friction params (`#8 <https://github.com/LeoRover/leo_common-ros2/issues/8>`_) (`#10 <https://github.com/LeoRover/leo_common-ros2/issues/10>`_)
 * Contributors: Jan Hernas
 
-3.0.0 (2023-11-08)
+2.0.0 (2023-11-08)
 ------------------
 * Remove redundant ros2_control controller configuration
 * Contributors: Błażej Sowa
