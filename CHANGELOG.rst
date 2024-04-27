@@ -2,6 +2,11 @@
 Changelog for package leo_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.2 (2024-04-27)
+------------------
+* IGN_GAZEBO_RESOURCE_PATH -> GZ_SIM_RESOURCE_PATH
+* Contributors: Błażej Sowa
+
 3.0.1 (2024-02-13)
 ------------------
 * Change wheel ode friction params (`#8 <https://github.com/LeoRover/leo_common-ros2/issues/8>`_) (`#9 <https://github.com/LeoRover/leo_common-ros2/issues/9>`_)
