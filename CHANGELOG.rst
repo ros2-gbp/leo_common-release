@@ -2,6 +2,11 @@
 Changelog for package leo_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.3 (2024-05-12)
+------------------
+* Remove imu system plugin from the robot (`#11 <https://github.com/LeoRover/leo_common-ros2/issues/11>`_) (`#12 <https://github.com/LeoRover/leo_common-ros2/issues/12>`_)
+* Contributors: Jan Hernas
+
 2.0.2 (2024-04-27)
 ------------------
 * Set GZ_SIM_RESOURCE_PATH for Gazebo Harmonic
