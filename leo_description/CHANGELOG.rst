@@ -2,6 +2,11 @@
 Changelog for package leo_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.3 (2024-05-12)
+------------------
+* Remove imu system plugin from the robot (`#11 <https://github.com/LeoRover/leo_common-ros2/issues/11>`_) (`#13 <https://github.com/LeoRover/leo_common-ros2/issues/13>`_)
+* Contributors: Jan Hernas
+
 3.0.2 (2024-04-27)
 ------------------
 * IGN_GAZEBO_RESOURCE_PATH -> GZ_SIM_RESOURCE_PATH
