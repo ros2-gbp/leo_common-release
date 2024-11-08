@@ -1,3 +1,30 @@
+## leo_common (jazzy) - 3.0.3-2
+
+The packages in the `leo_common` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --ros-distro jazzy leo_common` on `Fri, 08 Nov 2024 12:27:28 -0000`
+
+These packages were released:
+- `leo`
+- `leo_description`
+- `leo_msgs`
+- `leo_teleop`
+
+Version of package(s) in repository `leo_common`:
+
+- upstream repository: https://github.com/LeoRover/leo_common-ros2.git
+- release repository: https://github.com/ros2-gbp/leo_common-release.git
+- rosdistro version: `3.0.3-1`
+- old version: `3.0.3-1`
+- new version: `3.0.3-2`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.0`
+- vcstools version: `0.1.42`
+
+
 ## leo_common (iron) - 2.0.4-1
 
 The packages in the `leo_common` repository were released into the `iron` distro by running `/usr/bin/bloom-release --ros-distro iron leo_common` on `Fri, 08 Nov 2024 12:25:06 -0000`
