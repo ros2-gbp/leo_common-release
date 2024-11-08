@@ -1,3 +1,30 @@
+## leo_common (humble) - 1.2.4-1
+
+The packages in the `leo_common` repository were released into the `humble` distro by running `/usr/bin/bloom-release --ros-distro humble leo_common` on `Fri, 08 Nov 2024 12:04:28 -0000`
+
+These packages were released:
+- `leo`
+- `leo_description`
+- `leo_msgs`
+- `leo_teleop`
+
+Version of package(s) in repository `leo_common`:
+
+- upstream repository: https://github.com/LeoRover/leo_common-ros2.git
+- release repository: https://github.com/ros2-gbp/leo_common-release.git
+- rosdistro version: `1.2.3-1`
+- old version: `1.2.3-1`
+- new version: `1.2.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.0`
+- vcstools version: `0.1.42`
+
+
 ## leo_common (jazzy) - 3.0.3-1
 
 The packages in the `leo_common` repository were released into the `jazzy` distro by running `/bin/bloom-release --rosdistro jazzy leo_common` on `Sun, 12 May 2024 13:37:24 -0000`
