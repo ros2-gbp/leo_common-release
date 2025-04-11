@@ -1,22 +1,21 @@
-name: CI-Rolling
+name: CI-Humble
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - ros2
+      - humble
   pull_request:
     branches:
-      - ros2
+      - humble
 
 env:
- ROS_DISTRO: rolling
+ ROS_DISTRO: humble
 
 jobs:
   industrial_ci:
     runs-on: ubuntu-20.04
     strategy:
-      fail-fast: false
       matrix:
         ROS_REPO: [testing, main]
     env:
@@ -27,4 +26,4 @@ jobs:
       - name: Source tests
         uses: "ros-industrial/industrial_ci@master"
         env:
-          DOWNSTREAM_WORKSPACE: "github:LeoRover/leo_desktop-ros2#rolling"
+          DOWNSTREAM_WORKSPACE: "github:LeoRover/leo_desktop-ros2#humble github:LeoRover/leo_robot-ros2#humble"
